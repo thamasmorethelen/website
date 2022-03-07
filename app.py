@@ -1,13 +1,5 @@
-from flask import (render_template, url_for,
-                   request, redirect)
+from flask import (render_template)
 from models import (app, Project, db)
-from datetime import datetime
-
-
-def date_strptime(date_str):
-    date_str = date_str.replace('-', ' ')
-    date_obj = datetime.strptime(date_str, '%Y %m')
-    return date_obj
 
 
 @app.route('/')
