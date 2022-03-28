@@ -14,10 +14,6 @@ def about():
     return render_template('about.html')
 
 
-@application.route('/detail/<id>')
-def detail(id):
-    return render_template('detail.html')
-
 
 @application.errorhandler(404)
 def not_found(error):
