@@ -6,8 +6,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def index():
-    projects = Project.query.all()
-    return render_template('index.html', projects=projects)
+    return render_template('index.html')
 
 
 @application.route('/about')
@@ -17,8 +16,7 @@ def about():
 
 @application.route('/detail/<id>')
 def detail(id):
-    project = Project.query.get_or_404(id)
-    return render_template('detail.html', project=project)
+    return render_template('detail.html')
 
 
 @application.errorhandler(404)
