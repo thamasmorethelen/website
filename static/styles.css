@@ -4,8 +4,8 @@ Colors
 :root {
     --primary-text: black;
     --secondary-text: #242526;
-    --primary: #6495ED;
-    --secondary: #ffffbf;
+    --primary: #03254c;
+    --secondary: #ffc30b;
     --accent: #6495ED;
     --white:  #fff;
 }
@@ -245,7 +245,7 @@ Projects
     font-size: 100px;
     margin-bottom: 2rem;
     margin-top: 4rem;
-    color: var(--accent);
+    color: var(--primary);
 }
 
 #projects .a-project {
@@ -303,7 +303,7 @@ Contact
     font-size: 100px;
     margin-bottom: 2rem;
     margin-top: 4rem;
-    color: var(--accent);
+    color: var(--p);
 }
 
 #contact  h2 {
