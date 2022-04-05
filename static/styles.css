@@ -4,8 +4,8 @@ Colors
 :root {
     --primary-text: black;
     --secondary-text: #242526;
-    --primary: #03254c;
-    --secondary: #ffc30b;
+    --primary: #708090;
+    --secondary: #4F7942;
     --accent: #6495ED;
     --white:  #fff;
 }
@@ -201,7 +201,7 @@ Skills
 }
 
 #skills .fas {
-    color: var(--secondary);
+    color: var(--accent);
     font-size: 100px;
     margin-bottom: 2rem;
 }
@@ -245,7 +245,7 @@ Projects
     font-size: 100px;
     margin-bottom: 2rem;
     margin-top: 4rem;
-    color: var(--primary);
+    color: var(--accent);
 }
 
 #projects .a-project {
@@ -261,7 +261,7 @@ Projects
 
 .github-btn {
     border-radius: 10px;
-    background-color: var(--primary);
+    background-color: var(--accent);
     padding: 8px 15px;
     color: var(--white);
     text-decoration: none;
